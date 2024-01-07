@@ -1,0 +1,133 @@
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: #f0ebf8;
+}
+.header {
+  background-color: #6b46ac;
+  height: 160px;
+  padding: 0px;
+}
+.header h3 {
+  color: #fff;
+  position: relative;
+  width: 60%;
+  margin: 0 auto;
+  font-size: 30px;
+  top: 20px;
+  left: 80px;
+}
+h1,h2,h3,h4,h5,h6 {
+  color: #333;
+}
+p,label {
+  color: #444;
+}
+input {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding: 12px 0;
+  margin: 15px;
+}
+input, textarea {
+  width: 400px
+}
+.form-container {
+  width: 60%;
+  height:80%;
+  background-color: #fff;
+  margin: 0 auto;
+  position: relative;
+  top: -60px;
+  padding: 20px 20px 10px;
+}
+.form-header {
+  border-bottom: 1px solid #dfdfdf;
+  height: 45px;
+}
+.form-header p {
+  width: 130px;
+  margin: 0 auto;
+  border-bottom: 1px solid #6b46ac;
+  color: #6b46ac;
+  text-transform: uppercase;
+  padding: 12px;
+}
+.block {
+  display: block;
+}
+textarea {
+  padding: 10px 5px;
+}
+.form-body h1 {
+  margin: 10px ;
+}
+.btn-submit {
+  width: 150px;
+  height: 50px;
+  background-color: #6b46ac;
+  border: none; 
+  transition: 0.5s;
+  cursor: pointer;
+  margin-top: 20px;
+  display: block;
+}
+.btn-submit:hover {
+  background-color: #fff;
+  border: 2px solid #6b46ac;
+}
+.form-body {
+  padding: 30px;
+}
+@media screen and (max-width: 790px) {
+  input,textarea {
+   width: 200px;
+  }
+  .form-container {
+    width: 450px;
+  }
+  .header h3 {
+   position: relative;
+   left: -40px;
+   width: 80%;
+  }
+ }
+ @media screen and (max-width: 450px) {
+  .form-container{
+    width: 350px;
+  }
+  .header h3 {
+   font-size: 20px;
+   padding: 20px;
+  }
+ }
+ @media screen and (max-width: 348px) {
+   .form-container {
+    width: 300px;
+   }
+   .header h3 {
+    font-size: 18px;
+   }
+ }
+ @media screen and (max-width: 303px) {
+   .form-container {
+    width: 280px;
+   }
+   .header h3 {
+    width: 245px;
+    position: relative;
+    left: 15px;
+   }
+ }
+ @media screen and (max-width: 278px) {
+  .form-container {
+    width: 270px;
+  }
+  .header {
+    width: 300px;
+  }
+ }
